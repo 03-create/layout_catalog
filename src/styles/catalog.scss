@@ -1,13 +1,14 @@
 .catalog {
   --colamp-count: 1;
 
+  padding: 50px 40px;
   justify-content: center;
   display: grid;
   place-items: center;
   grid-template-columns: repeat(var(--colamp-count), 200px);
   overflow: hidden;
 
-  gap: 40px 50px;
+  gap: 46px 48px;
 }
 
 @media (max-width: 487px) {
