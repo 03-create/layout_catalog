@@ -1,0 +1,35 @@
+.catalog {
+  --colamp-count: 1;
+
+  justify-content: center;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, 200px);
+  overflow: hidden;
+
+  gap: 40px 50px;
+}
+
+@media (max-width: 487px) {
+  .catalog {
+    --colamp-count: 1;
+  }
+}
+
+@media (min-width: 488px) {
+  .catalog {
+    --colamp-count: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .catalog {
+    --colamp-count: 3;
+  }
+}
+
+@media (min-width: 1024) {
+  .catalog {
+    --colamp-count: 4;
+  }
+}
